@@ -1,0 +1,301 @@
+/* Global styles */
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: white;
+  /* Add the background image and properties here: */
+  background-image: url("https://medias.paris2024.org/uploads/2024/02/HP-Medailles-Vdef-desktop.jpg?x-oss-process=image/resize,w_1600,h_1220,m_lfit/format,jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.content {
+  background-color: rgba(255, 255, 255, 1); /* Adjust opacity as needed */
+  padding: 20px;
+}
+
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+h2, h3 {
+  text-align: center;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Styles for sections */
+section {
+ 
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  margin: 20px; /* Consistent margin for all sections */
+  padding: 20px; /* Consistent padding for all sections */
+  border: 10px solid #ccc; /* Consistent border for all sections */
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.categories ul li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 5px rgba(10, 9, 9, 0.1);
+  background-color: black;
+}
+
+.categories ul li:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+.calendrier table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.calendrier table th,
+.calendrier table td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.bouton-retour {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #253858;
+}
+
+.bouton-retour svg {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.bouton-retour:hover {
+  background-color: #F7882F;
+  color: #fff;
+}
+
+/* Header styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  /* Add background image and properties: */
+  background-image: url("https://medias.paris2024.org/uploads/2024/02/HP-Medailles-Vdef-desktop.jpg?x-oss-process=image/resize,w_1600,h_1220,m_lfit/format,jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 60px;
+  color: Black; 
+}
+
+
+.menu-navigation {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ 
+}
+
+.menu-navigation a {
+  
+  font-size: 20px;
+  padding: 1px 1px;
+  border-radius: 5px;
+  margin-right: 10px;
+  
+}
+
+.menu-navigation a img {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.menu-navigation a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.menu-navigation form {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+form {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding: 5px;
+  outline: none; /* Remove browser outline on focus */
+}
+
+.search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-button svg {
+  fill: #333; /* Adjust color as needed */
+  transition: transform 0.2s ease-in-out;
+}
+
+.search-button:hover svg {
+  transform: scale(1.1);
+}
+
+/* Champs de recherche */
+.champ-recherche {
+  margin: 0.5em 1em;
+  flex: 1 1 auto;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+select:focus,
+input:focus {
+  outline: none;
+  border-color: #007aff;
+}
+
+/* Section principale */
+.formulaire-recherche {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Boutons */
+
+button {
+  margin: 0.5em 1em;
+  padding: 0.75em 1.5em;
+  background-color: #007aff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.menu-navigation input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.header-center {
+  text-align: center;
+}
+
+.header-center h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.paragraphe-olympique {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  line-height: 1.5;
+  color: white;
+  margin: 20px auto;
+  max-width: 2000px;
+
+  /* Titres */
+  h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Paragraphes principaux */
+  p {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+
+  /* Listes à puces */
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+
+  /* Arguments supplémentaires */
+  .arguments {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+  }
+
+  /* Points clés */
+  .arguments li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #333;
+  }
+
+
+ 
+
+  
+  .bouton:hover {
+    background-color: #005787;
+  }
+
+  
+
+
