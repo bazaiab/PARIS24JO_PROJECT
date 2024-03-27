@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="formulaire-recherche">
+        <h2 class="formulaire-recherche">Recherchez vos billets pour les Jeux Olympiques de Paris 2024</h2>
+        <form class="formulaire-recherche" action="#">
+          <div class="champ-recherche">
+            <label for="sport">Sport</label>
+            <select id="sport" name="sport">
+              <option value="">Tous les sports</option>
+              <option value="athletisme">Athlétisme</option>
+              <option value="natation">Natation</option>
+              <option value="football">Football</option>
+              <option value="tennis">Tennis</option>
+              </select>
+          </div>
+          <div class="champ-recherche">
+            <label for="epreuve">Épreuve</label>
+            <select id="epreuve" name="epreuve">
+              <option value="">Toutes les épreuves</option>
+              </select>
+          </div>
+          <div class="champ-recherche">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date">
+          </div>
+          <div class="champ-recherche">
+            <label for="prix-min">Prix minimum</label>
+            <input type="number" id="prix-min" name="prix-min">
+          </div>
+          <div class="champ-recherche">
+            <label for="prix-max">Prix maximum</label>
+            <input type="number" id="prix-max" name="prix-max">
+          </div>
+          <button type="submit">Rechercher</button>
+        </form>
+      
+        <p class="astuces">**Astuces :**</p>
+        <ul class="astuces">
+          <li>Vous pouvez laisser les champs vides pour une recherche plus large.</li>
+          <li>Utilisez les touches fléchées pour naviguer dans les listes déroulantes.</li>
+          <li>Cliquez sur le bouton "Rechercher" pour afficher les résultats.</li>
+        </ul>
+      </section>
+      <a href="index.html" class="bouton-retour">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5a.5.5 0 0 0 .5-.5z"/>
+        </svg>
+        Retour à la page d'accueil
+      </a>
+      <section class="footer-container">
+        <div class="footer-gauche">
+          <p>© 2024 - Comité d'organisation des Jeux olympiques et paralympiques de Paris 2024</p>
+        </div>
+        <div class="footer-centre">
+          <ul>
+            <li><a href="#">Plan du site</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </section> 
+      
+</body>
+</html>
