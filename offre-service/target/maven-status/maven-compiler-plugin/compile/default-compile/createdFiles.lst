@@ -1,1 +1,14 @@
-com/paris/jo/Main.class
+com/paris/jo/dtos/UserDTO.class
+com/paris/jo/web/EventController.class
+com/paris/jo/repositories/EventRepository.class
+com/paris/jo/repositories/OfferRepository.class
+com/paris/jo/OfferServiceApplication.class
+com/paris/jo/entities/Event.class
+com/paris/jo/entities/Event$EventBuilder.class
+com/paris/jo/exceptions/UserNotFoundException.class
+com/paris/jo/web/OfferController.class
+com/paris/jo/entities/Offer$OfferBuilder.class
+com/paris/jo/entities/Offer.class
+com/paris/jo/enums/EventTypeEnum.class
+com/paris/jo/dtos/RoleDTO.class
+com/paris/jo/enums/OfferTypeEnum.class

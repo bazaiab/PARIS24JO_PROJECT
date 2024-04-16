@@ -1,1 +1,12 @@
-/Users/ajaira/pfe-jo-2024/jo-paris-24-template/user-service/src/main/java/com/pfe/jo/Main.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/repositories/RoleRepository.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/exceptions/UserNotFoundException.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/mappers/UserMapperImpl.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/services/UserServiceImpl.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/repositories/UserRepository.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/entities/AppUser.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/dtos/UserDTO.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/entities/Role.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/UserServiceApplication.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/dtos/RoleDTO.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/web/UsersController.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/user-service/src/main/java/com/paris/jo/services/UserService.java

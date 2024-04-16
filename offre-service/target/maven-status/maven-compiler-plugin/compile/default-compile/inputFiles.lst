@@ -1,1 +1,12 @@
-/Users/ajaira/workspace/pfe-jo-paris-24/sources/jeux-olympique-paris/event-service/src/main/java/com/paris/jo/Main.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/enums/EventTypeEnum.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/entities/Offer.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/web/OfferController.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/web/EventController.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/repositories/EventRepository.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/exceptions/UserNotFoundException.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/enums/OfferTypeEnum.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/repositories/OfferRepository.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/dtos/RoleDTO.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/OfferServiceApplication.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/entities/Event.java
+/Users/ajaira/workspace/pfe-jo-paris-24/jo-paris-2024/jeux-olympique-paris/booking-service/src/main/java/com/paris/jo/dtos/UserDTO.java
